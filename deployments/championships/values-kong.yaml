@@ -50,7 +50,7 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: "kong"
     konghq.com/override: championships-do-not-preserve-host
-
+    konghq.com/preserve-host: "false"
   hosts:
     - paths:
         - path: /api/championships
